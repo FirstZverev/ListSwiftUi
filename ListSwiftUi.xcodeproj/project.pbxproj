@@ -15,6 +15,9 @@
 		838DC01D26EB91B90086C104 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 838DC01B26EB91B90086C104 /* LaunchScreen.storyboard */; };
 		838DC02826EB91B90086C104 /* ListSwiftUiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838DC02726EB91B90086C104 /* ListSwiftUiTests.swift */; };
 		838DC03326EB91BA0086C104 /* ListSwiftUiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838DC03226EB91BA0086C104 /* ListSwiftUiUITests.swift */; };
+		838DC04126EB92E20086C104 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838DC04026EB92E20086C104 /* User.swift */; };
+		838DC04326EB93550086C104 /* UsersRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838DC04226EB93550086C104 /* UsersRow.swift */; };
+		838DC04526EB99B10086C104 /* Like.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838DC04426EB99B10086C104 /* Like.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		838DC02E26EB91BA0086C104 /* ListSwiftUiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListSwiftUiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		838DC03226EB91BA0086C104 /* ListSwiftUiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSwiftUiUITests.swift; sourceTree = "<group>"; };
 		838DC03426EB91BA0086C104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		838DC04026EB92E20086C104 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		838DC04226EB93550086C104 /* UsersRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersRow.swift; sourceTree = "<group>"; };
+		838DC04426EB99B10086C104 /* Like.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Like.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				838DC01026EB91B80086C104 /* AppDelegate.swift */,
 				838DC01226EB91B80086C104 /* SceneDelegate.swift */,
 				838DC01426EB91B80086C104 /* ContentView.swift */,
+				838DC04026EB92E20086C104 /* User.swift */,
+				838DC04426EB99B10086C104 /* Like.swift */,
+				838DC04226EB93550086C104 /* UsersRow.swift */,
 				838DC01626EB91B90086C104 /* Assets.xcassets */,
 				838DC01B26EB91B90086C104 /* LaunchScreen.storyboard */,
 				838DC01E26EB91B90086C104 /* Info.plist */,
@@ -266,9 +275,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				838DC04126EB92E20086C104 /* User.swift in Sources */,
 				838DC01126EB91B80086C104 /* AppDelegate.swift in Sources */,
+				838DC04526EB99B10086C104 /* Like.swift in Sources */,
 				838DC01326EB91B80086C104 /* SceneDelegate.swift in Sources */,
 				838DC01526EB91B80086C104 /* ContentView.swift in Sources */,
+				838DC04326EB93550086C104 /* UsersRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
